@@ -1,6 +1,6 @@
-INSERT INTO burgers (burger_name, devoured) VALUES ('Whopper', true);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Big Mac', true);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Cheeseburger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Greek Burger', false);
+INSERT INTO burgers (burger_name, devoured, createdat) VALUES ('Whopper', true, current_timestamp());
+INSERT INTO burgers (burger_name, devoured, createdat) VALUES ('Big Mac', true, current_timestamp());
+INSERT INTO burgers (burger_name, devoured, createdat) VALUES ('Cheeseburger', false, current_timestamp());
+INSERT INTO burgers (burger_name, devoured, createdat) VALUES ('Greek Burger', false, current_timestamp());
 
 
